@@ -17,7 +17,7 @@ Gem::Specification.new do |gem|
   gem.add_dependency 'oauth', '0.4.7'
   gem.add_dependency 'roxml', '3.3.1'
   gem.add_dependency 'nokogiri' # leave in promiscuous mode so as to not conflict with quickeebooks gem
-  gem.add_dependency 'activemodel', '4.1.4'
+  gem.add_dependency 'activemodel'
   gem.add_dependency 'multipart-post', '2.0.0'
 
   gem.add_development_dependency 'rake', '10.1.0'
